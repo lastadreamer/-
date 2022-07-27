@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:18:29.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" version="20.2.1" etag="VmxiEloyaQ_dnWWPM3bZ" type="github"><diagram id="1rSQkvTtesCcE_d04fqN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:41:02.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="jxWDv-WEW6v-zvg541hH" version="20.2.1" type="github">
+  <diagram id="1rSQkvTtesCcE_d04fqN" name="第 1 页">
+    <mxGraphModel dx="2492" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="680" height="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-1" target="fvXAq5GZHCitB_zSTUMO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-1" value="输入待评估的策略 \( \pi \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-2" target="fvXAq5GZHCitB_zSTUMO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-2" value="对所有 \( s \in S \)，任意初始化 \( V(s) \in R \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-4" target="fvXAq5GZHCitB_zSTUMO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-4" value="对所有 \( s \in S \)，\( Return(s) \leftarrow 空列表 \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-6" target="fvXAq5GZHCitB_zSTUMO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-6" value="根据 \( \pi \) 生成一幕序列 &lt;br&gt;\( S_0, A_0, R_1, S_1, A_1, R_2,\dots,S_{T-1}, A_{T-1}, R_T \)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="490" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-8" target="fvXAq5GZHCitB_zSTUMO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-8" value="\( G \leftarrow 0 \)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-10" target="fvXAq5GZHCitB_zSTUMO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-10" value="对本幕中的每一步进行循环，\( t = T-1, T-2, \dots,0 \)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="720" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-12" target="fvXAq5GZHCitB_zSTUMO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-12" value="\( G \leftarrow \gamma G + R_{t + 1} \)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-15" target="fvXAq5GZHCitB_zSTUMO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="990" />
+              <mxPoint x="10" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-18" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fvXAq5GZHCitB_zSTUMO-17">
+          <mxGeometry x="-0.7705" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-15" target="fvXAq5GZHCitB_zSTUMO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-33" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="fvXAq5GZHCitB_zSTUMO-21">
+          <mxGeometry x="0.1247" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-15" value="\( S_t \) 在&lt;br&gt;&amp;nbsp;\( S_0, S_1, \dots, S_{t - 1} \)中出现过？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="930" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-20" target="fvXAq5GZHCitB_zSTUMO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-20" value="将 \( G \) 加入 \( Return(S_t) \)&lt;br&gt;&lt;br&gt;\( V(S_t) \leftarrow average(Return(S_t)) \)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1080" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-22" target="fvXAq5GZHCitB_zSTUMO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1230" />
+              <mxPoint x="280" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fvXAq5GZHCitB_zSTUMO-23">
+          <mxGeometry x="-0.873" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-22" target="fvXAq5GZHCitB_zSTUMO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-29" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fvXAq5GZHCitB_zSTUMO-27">
+          <mxGeometry x="-0.1872" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-22" value="\( t == 0 \) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fvXAq5GZHCitB_zSTUMO-26" target="fvXAq5GZHCitB_zSTUMO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1340" />
+              <mxPoint x="-40" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-26" value="本幕结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fvXAq5GZHCitB_zSTUMO-32" value="&lt;span style=&quot;background-color: rgb(255, 255, 0); font-size: 22px;&quot;&gt;首次访问型 MC 预测算法&lt;/span&gt;，用于估计&lt;br style=&quot;font-size: 22px;&quot;&gt;\( V \approx v_\pi \)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="235" width="140" height="155" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
